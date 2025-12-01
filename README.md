@@ -18,4 +18,16 @@ defCall ( pass the variable which you want to pass) {
 write the code here   
   }
 
+Clone.groovy example :
+step 1 : create clone.groovy file in /vars/clone.groovy 
+step 2 : write the function in created file
+        syntax 
+        
+        def call(String url, String branch) {
+                git url: url, branch: branch
+        }
+
+
+
+Clo
   
